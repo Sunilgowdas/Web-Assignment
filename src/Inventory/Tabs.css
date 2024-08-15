@@ -1,0 +1,53 @@
+/* Inventory/Tabs.css */
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #d1e7d5;
+    margin-top: 20px;
+  }
+  
+  .tab-buttons {
+    display: flex;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    color: #4CAF50;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .tab.active {
+    border-bottom: 3px solid #4CAF50;
+  }
+  
+  .tab:not(.active):hover {
+    color: #388e3c;
+  }
+  
+  .action-buttons {
+    display: flex;
+  }
+  
+  .action-button {
+    margin-left: 10px;
+    padding: 5px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .action-button.add-service {
+    background-color: #4CAF50; /* Green */
+  }
+  
+  .action-button.add-houk-service {
+    background-color: #76c7c0; /* Light Green/Teal */
+  }
+  

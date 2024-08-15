@@ -1,0 +1,51 @@
+/* Inventory/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e6f4ea;
+    border-bottom: 1px solid #d1e7d5;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-icon {
+    margin-right: 8px;
+    color: #4CAF50;
+    font-size: 18px;
+  }
+  
+  .navbar-text {
+    margin-right: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .navbar-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-search {
+    width: 300px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-user {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
